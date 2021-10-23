@@ -27,7 +27,7 @@ function PostItem(props){
                <h3>{props.item.id}</h3>
                <h3 style={{
                    marginLeft:'50px'
-               }}>{props.item.title}</h3>
+               }}> {props.item.title }</h3>
             </div>
             <div onClick={open}>
                  <BiSpreadsheet color='white' size={50} style={{
