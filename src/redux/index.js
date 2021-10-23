@@ -1,0 +1,1 @@
+export {PostData,AlbumsData,todosData,photosData,usersData,CommentsData} from './data/action'
