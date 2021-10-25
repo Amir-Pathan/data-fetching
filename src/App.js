@@ -6,11 +6,10 @@ import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Posts from './component/posts'
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
-import PostDetails from './component/postdetails'
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Provider store={store}>
         <Router>
            <ToastContainer/>

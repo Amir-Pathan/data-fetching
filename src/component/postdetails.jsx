@@ -3,7 +3,7 @@ import {AiOutlineCloseCircle} from 'react-icons/ai'
 
 function PostDetails({data,close}){
 
-    const {id,userId,title,body} = data.item;
+    const {id,userId,title,body} = data;
     console.log(data);
 
     return(
