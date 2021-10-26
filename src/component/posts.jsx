@@ -20,11 +20,12 @@ class Posts extends Component{
         console.log(this.state.posts);
     }
     render(){
+        console.log(this.props.posts.data)
         return(
             <div>
                 <Search controll={this.props.controll}/>
                 {
-                   this.state.posts?
+                   this.state.posts.data?
                         <div>
                             {
                                 this.state.posts.data?
@@ -43,7 +44,7 @@ class Posts extends Component{
 
 const mapStateToProps=state=>{
     return{
-        posts : state.posts
+        posts : state.data.posts
     }
 }
 

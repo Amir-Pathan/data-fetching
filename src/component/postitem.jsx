@@ -21,7 +21,7 @@ function PostItem(props){
     return(
         <div className='postItem'>
             <Modal isOpen={modalOpen} onRequestClose={()=>setModalOpen(false)}>
-                <PostDetails data={props} close={close}/>
+                <PostDetails data={props.item} close={close}/>
             </Modal>
             <div>
                <h3>{props.item.id}</h3>
